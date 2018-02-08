@@ -1,0 +1,93 @@
+.page-header{
+  margin:0;
+  border-bottom: 0;
+  max-height: 70px;
+}
+
+.navbar-default{
+  background-color: rgba(13, 17, 33, 0.99);
+  padding-top: 10px;
+  width: 100%
+}
+
+.logo{
+  width:90%;
+  height:90%;
+  max-width:250px;
+}
+
+.sm-xs-nav{
+  padding-bottom:2%;
+}
+
+.sm-xs-li{
+  padding-right:2%;
+}
+
+.sm-xs-link{
+    color: rgb(44, 111, 174);
+}
+
+#logo{
+  float: left;
+  overflow: hidden;
+  max-height: inherit;
+}
+
+#logo:hover{
+    opacity: 0.8;
+    background-repeat: none;
+    color: transparent;
+    cursor: default;
+}
+
+.nav-pills>li{
+ padding-left: 5px;
+}
+
+ .nav-pills>li>a{
+  border:solid;
+  border-color: transparent;
+}
+
+.navbar-toggle{
+  float:none;
+}
+
+.nav-pills>li>a:hover{
+  padding:-5px;
+  border-color: rgb(213, 224, 228);
+  background-color: rgb(213, 224, 228);
+}
+
+.na
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:hover
+.nav-pills>li.active>a:focus  {
+  background-color: rgb(213, 224, 228) !important;
+  color: rgb(32,28,29) !important;
+  cursor: default;
+  border-color: rgb(16, 21, 33);
+}
+
+
+.navigation{
+  list-style-type: none;
+  margin: 0;
+  padding:0;
+  font-size: 32px;
+}
+
+.navigation >li{
+  padding-bottom: 10px;
+}
+
+.socials{
+  float:right;
+  margin-right: 2%;
+}
+
+.toggler{
+  border: none;
+  background-color: transparent;
+}
