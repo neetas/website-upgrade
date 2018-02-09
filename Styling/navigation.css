@@ -60,7 +60,6 @@
   background-color: rgb(213, 224, 228);
 }
 
-.na
 .nav-pills>li.active>a,
 .nav-pills>li.active>a:hover
 .nav-pills>li.active>a:focus  {
@@ -69,7 +68,6 @@
   cursor: default;
   border-color: rgb(16, 21, 33);
 }
-
 
 .navigation{
   list-style-type: none;
