@@ -54,6 +54,8 @@ h2{
 
 .carousel-control{
   background-image:none !important;
+  max-height: 10%;
+  padding-top: 50%
 }
 
 #videoCarousel{
