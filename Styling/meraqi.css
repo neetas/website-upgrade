@@ -1,0 +1,32 @@
+
+.logoMeraqi{
+  width:18%;
+  padding-bottom:1%;
+  margin-left: 50%;
+}
+
+.meraqi-nav{
+  background-color: #e2eff4;
+  background-image: url("../Assets/17.jpg");
+  background-size: 30%;
+  background-position: 70px;
+  border:none;
+}
+
+.navbar{
+  margin-bottom:0;
+}
+
+.banner{
+  background-image: url("../Assets/17.jpg");
+}
+
+.nav-pills>li.active>a{
+  border: none;
+  background-color: transparent !important;
+}
+
+.nav-pills>li>a:hover{
+  background-color: transparent;
+  border: none;
+}

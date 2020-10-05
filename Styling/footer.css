@@ -1,0 +1,63 @@
+
+footer {
+  width: 100%;
+  height: 100px;
+  background-color:  rgb(238,244,247);
+  font-size: small;
+  font-family: Raleway;
+  line-height: 100px;
+  color: darkolivegreen;
+
+}
+
+
+.ampify{
+  content:"";
+  padding: 0;
+  background-color: rgb(238,244,247);
+}
+
+.ampify:after {
+  content:"";
+  display: block;
+  background-image: url(../Assets/Ampify.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  opacity: 0.4;
+}
+
+
+.end{
+  height: 100%;
+  line-height: normal;
+}
+
+.summary{
+  line-height: 48px;
+}
+
+
+.email{
+  content:"";
+  padding: 0;
+  background-color: rgb(213,224,228);
+  text-align: center;
+  color: darkolivegreen;
+  font-size: larger;
+}
+
+.email a{
+
+  display: inline-block;
+}
+
+.email:hover {
+  filter:brightness(1.5);
+  /* color:forestgreen; */
+}
+
+/* .email:hover a{
+  filter:brightness(0.8);
+
+} */

@@ -1,4 +1,3 @@
-<!doctype html>
 <html>
 <head>
       <title> Neeta : Music Production | Composition | Sound Designer  </title>
@@ -6,83 +5,367 @@
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <meta property="og:image" content="http://neeta.sarl/Assets/farmfest.jpg"/>
       <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
-      <link rel="stylesheet" href="Styling/main.css">
+      <link rel="stylesheet" href="Styling/main2.css">
       <link rel="stylesheet" href="Styling/navigation.css">
       <link rel="stylesheet" href="Styling/hovers.css">
+          <link rel="stylesheet" href="Styling/footer.css">
+      <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+          <link rel="stylesheet" href="Styling/newshowreel.css">
+          <link rel="stylesheet" href="Styling/aboutMeandContact.css">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <script async src="//www.instagram.com/embed.js"></script>
+  <script type="text/javascript" src="js/changeNavbarColour.js"></script>
+
 </head>
   <body class="background">
-    <div class="main">
-      <nav class="navbar navbar-default">
-        <div class="col-lg-3 col-md-6 col-sm-7 col-xs-7" id="logo">
-          <a href="index.html" onclick="showVideos()">  <img class="logo" src="Assets/myLogo-v5.png"></a>
+    <div class="main" id="pageTop">
+      <nav class="navbar navbar-default navbar-fixed-top" id="navbar-override">
+        <div class="col-lg-3 col-md-4 col-sm-10 col-xs-8" id="logo">
+          <a class="myLogo" href="#pageTop">
+              <img class="logo" src="Assets/NeetaSarlLogoLongWhite.png" />
+          </a>
         </div>
-        <div class="col-lg-6 col-md-4 col-sm-7 collapse navbar-collapse" id="bs-example-navbar-collapse1">
-          <ul class="nav nav-pills head-menu hidden-sm hidden-xs">
-            <li><a href="about.html" class="hvr-push"> about</a></li>
-            <li><a href="showreel.html" class="hvr-push">showreel</a></li>
-            <li><a href="contact.html" class="hvr-push">contact </a></li>
+        <div class="col-lg-6 ytho" id="bs-example-navbar-collapse1">
+          <ul class="nav nav-pills col-md-7 head-menu hidden-sm hidden-xs">
+            <li><a href="#about" class="hvr-push"> ABOUT </a></li>
+            <li><a href="#examples" class="hvr-push"> SHOWREEL </a></li>
+            <li><a href="#originals" class="hvr-push"> ORIGINALS </a></li>
+            <!-- <li><a href="#sounddesign" class="hvr-push"> SOUND DESIGN</a></li> -->
           </ul>
         </div>
-              <div class="socials">
+              <!-- socials large -->
+              <div class="hidden-md hidden-sm hidden-xs socials">
+                <a target="_blank" href="https://www.instagram.com/neetamusic/">
+                    <img class="hvr-float-shadow socialicon" src="Assets/instagram.png">
+                    </img>
+                  </a>
                 <a target="_blank" href="https://www.facebook.com/neetamusik">
-                  <img class="hvr-float-shadow" src="Assets/fbicon.png">
-                  </img>
-                </a>
-                <a target="_blank" href="https://twitter.com/neetamusic">
-                  <img class="hvr-float-shadow" src="Assets/twittericon.png">
+                  <img class="hvr-float-shadow socialicon" src="Assets/facebook.png">
                   </img>
                 </a>
                 <a target="_blank" href="https://www.linkedin.com/in/neeta-sarl-1887a818">
-                  <img class="hvr-float-shadow" src="Assets/linkedinicon.png">
+                  <img class="hvr-float-shadow socialicon" src="Assets/linkedin.png">
                   </img>
                 </a>
+              
+              
+              </div>
+              <!-- socials small -->
+              <div class="hidden-lg hidden-lg">
+                <a target="_blank" href="https://www.instagram.com/neetamusic/">
+                   <img class="hvr-float-shadow socialicon" src="Assets/instagram.png">
+                   </img>
+                 </a>
+                <a target="_blank" href="https://www.facebook.com/neetamusik">
+                  <img class="hvr-float-shadow socialicon" src="Assets/facebook.png">
+                  </img>
+                </a>
+                <a target="_blank" href="https://www.linkedin.com/in/neeta-sarl-1887a818">
+                  <img class="hvr-float-shadow socialicon" src="Assets/linkedin.png">
+                  </img>
+                </a>
+              
+              
               </div>
       </nav>
-        <div class="hidden-lg hidden-md col-md-6 sm-xs-nav" role="navigation">
-          <ul class="nav nav-pills">
-            <li  class="sm-xs-li"><a href="about.html" class="hvr-push sm-xs-link"> about</a></li>
-            <li class="sm-xs-li"><a href="showreel.html" class="hvr-push sm-xs-link">showreel</a></li>
-            <li class="sm-xs-li"><a href="contact.html" class="hvr-push sm-xs-link">contact </a></li>
-          </ul>
+<div class="headline-not-xs">
+  <div class="column">
+    <div class="col-lg-7 col-md-7 col-sm-6">
+    </div>
+  </div>
+
+      <div class="column">
+        <div class="col-lg-4 col-md-5 hidden-sm hidden-xs contentBlock">
+          <div class="headline">
+             <h1> Composition <BR> Production<BR>  Mixing </h1>
+          </div>
+          <BR>
+          <p class="blurb">
+
+                <p class="contact-deets">
+                  <span class="glyphicon glyphicon-envelope contact-deets" aria-hidden="true"></span>
+                  neetamusic@gmail.com </p>
+          </p>
+          </div>
         </div>
       </div>
-    <div class="frontmedia col-md-12" align="center" id="vidshowreel">
-      <div id="videoCarousel" class="carousel slide" data-ride="carousel"  data-interval="false">
-          <ol class="carousel-indicators">
-              <li data-target="#videoCarousel" data-slide-to="0" class="active"></li>
-              <li data-target="#videoCarousel" data-slide-to="1"></li>
-              <li data-target="#videoCarousel" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner">
-              <div class="item active embed-responsive embed-responsive-16by9">
-                <iframe
-                  src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fneetamusik%2Fvideos%2F10153860460996529%2F&show_text=0&width=560"
-                  width="1024" height="576" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true" align="center">
-                </iframe>
-              </div>
-              <div class="item embed-responsive embed-responsive-16by9">
-                <iframe width="1024" height="576" src="https://www.youtube.com/embed/mnGhpKL5InQ" frameborder="0" allowfullscreen>
-                </iframe>
-              </div>
-              <div class="item embed-responsive embed-responsive-16by9">
-                <iframe width="1024" height="576" src="https://www.youtube.com/embed/wTNXdVmiAZU" frameborder="0" allowfullscreen>
-                </iframe>
-              </div>
-              <div class="item embed-responsive embed-responsive-16by9">
-                <iframe width="1024" height="576" src="https://player.vimeo.com/video/236577272" frameborder="0" allowfullscreen>
-                </iframe>
-              </div>
-          </div>
-          <!-- Carousel controls -->
-          <a class="carousel-control left" href="#videoCarousel" data-slide="prev">
-              <span class="glyphicon glyphicon-chevron-left"></span>
-          </a>
-          <a class="carousel-control right" href="#videoCarousel" data-slide="next">
-              <span class="glyphicon glyphicon-chevron-right"></span>
-          </a>
-      </div>
     </div>
+
+          <div class="column">
+            <div class="hidden-lg hidden-md col-sm-12 col-xs-12">
+              <div class="headline-xs">
+                <h1> Composition <BR> Production<BR>  Mixing </h1>              </div>
+              <BR>
+              <p class="blurb">
+
+                    <p class="contact-deets-xs">
+                      <span class="glyphicon glyphicon-envelope contact-deets" aria-hidden="true"></span>
+                      neetamusic@gmail.com </p>
+              </p>
+              </div>
+            </div>
+    <div class="container" id="about">             <div class="column">
+  <div class="title"> <h2 class="maintitle" id="#about"> ABOUT </h2>
+  </div>
+  <div class="col-lg-6 col-md-6  contentBlock" >
+
+    <p class="blurb">
+      I am Neeta, a freelance musician, music composer/producer, sound designer & technologist based in the UK. I am passionate about electronic music,
+      and particularly interested in the boundary that lies between live/acoustic performance and electronic sound. I love many aspects of the music
+      making process and over the years have developed a diverse range of skills both in the studio and on the stage. My sound as a composer ranges in
+      style covering soul, electronica, cinematic, ambient, orchestral, Indian fusion, world, classical, RnB, hip-hop, jazz, vocal, acoustic, folk,
+      pop, drum and bass & house.
+<BR><BR>
+I have designed loop packs for a number of sample pack companies including Samplephonics, FreakyLoops, Noiiz, and currently create ongoing bespoke
+sound packs for <a class="mainContentLink" href="https://ampifymusic.com/about/"> Ampify x Novation</a>’s apps: Launchpad, Blocs Wave & Groovebox
+for iOS. I have composed music to brief for film, tv and podcasts. Recent work includes theme tunes for BBC. I have collaborated with AI music
+engines, arranging and producing music written by them as well as composing music for them.
+<BR><BR>
+I am a classically trained pianist, starting age 7. As a teenager I found a great passion for songwriting and singing, and soon after began
+experimenting with recording/production using Cubase. I graduated in 2008 from Leeds College of Music where I studied Popular Music
+(Major Composition - 1st). At Uni I played in a number of bands, realising my compositions live. My sound as an artist fuses electronic, soulful,
+downtempo and sometimes Indian flavours. As an artist I’ve released music on independent labels and performed around the UK in bands. Many of my
+original tracks have received national radio play and have been used for sync.
+<BR><BR>
+I am also an ex-software developer and I still feel very passionate about technology. I love experimental ideas using music and new technology,
+and welcome any projects that marry the two.
+<BR><BR>
+Please enjoy my showreel and email any enquiries to neetamusic@gmail.com. 
+
+
+  </div>
+</div>
+
+    <div class="column">
+      <div class="col-lg-6 col-md-6 contentBlock">
+
+          <div class="frontmedia col-md-12" align="center" id="vidshowreel">
+            <div id="videoCarousel" class="carousel slide" data-ride="carousel"  data-interval="false">
+                <ol class="carousel-indicators">
+                    <li data-target="#videoCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#videoCarousel" data-slide-to="1"></li>
+                    <li data-target="#videoCarousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active embed-responsive embed-responsive-16by9">
+                      <iframe
+                        src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fneetamusik%2Fvideos%2F10153860460996529%2F&show_text=0&width=560"
+                        width="1024" height="576" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true" align="center">
+                      </iframe>
+                    </div>
+                    <div class="item embed-responsive embed-responsive-16by9">
+                      <iframe width="1024" height="576" src="https://www.youtube.com/embed/mnGhpKL5InQ" frameborder="0" allowfullscreen>
+                      </iframe>
+                    </div>
+                    <div class="item embed-responsive embed-responsive-16by9">
+                      <iframe width="1024" height="576" src="https://www.youtube.com/embed/wTNXdVmiAZU" frameborder="0" allowfullscreen>
+                      </iframe>
+                    </div>
+                    <div class="item embed-responsive embed-responsive-16by9">
+                      <iframe width="1024" height="576" src="https://player.vimeo.com/video/236577272" frameborder="0" allowfullscreen>
+                      </iframe>
+                    </div>
+                </div>
+                <!-- Carousel controls -->
+                <a class="carousel-control left" href="#videoCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="carousel-control right" href="#videoCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+          </div>
+        </div>
+      </div>
+ </div> <hr>
+
+
+
+    <div class="mainsr">
+      <div class="layer"  id="examples">
+            
+            <div class="container">
+              <div class="row">
+                <div class="column">
+                  <div class="col-lg-12">
+                    <div class="title">
+                        <h2 class="maintitle"> SHOWREEL </h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="showreeling">
+                <div class="row">
+                  <div class="column">
+                      <div class="col-lg-4">
+                        <h4 class="showreelTitle"> AMPIFY <BR> <small class="subtitle"> Sample packs for Launchpad , BlocsWave & Groovebox iOS apps  </h4>
+                          <div class="mediaBoxAmpify">
+                            <iframe class="iframeAmpify" scrolling="no" frameborder="no"
+                              allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/328395397&color=%23ff5500&auto_play=false&hide_related=true&show_comments=true&show_user=false&show_reposts=false&show_teaser=true">
+                            </iframe>
+                          </div>
+                        </div>
+                    <div class="col-lg-4">
+                      <h4 class="showreelTitle"> EXPERT GUIDE TO CONSPIRACY THEORIES<BR>  <small class="subtitle"> Theme tune for Podcast by Anthill (The Conversation) </h4>
+                        <div class="mediaBox">
+                          <iframe
+                            scrolling="no"
+                            frameborder="no"
+                            allow="autoplay"
+                            src=https://w.soundcloud.com/player/?url&#x3D;https%3A//api.soundcloud.com/tracks/789405325&amp;color&#x3D;%23ff5500&amp;auto_play&#x3D;false&amp;hide_related&#x3D;false&amp;show_comments&#x3D;true&amp;show_user&#x3D;true&amp;show_reposts&#x3D;false&amp;show_teaser&#x3D;true&amp;visual&#x3D;true>
+                          </iframe>
+                        </div>
+                      </div>
+                    <div class="col-lg-4">
+                      <h4 class="showreelTitle"> HOW TO DISARM A FIGHTER JET<BR>  <small class="subtitle"> Composition for short film by Natalie Thomas (Reuters, CNN) </h4>
+                        <div class="mediaBox">
+                          <iframe
+                            scrolling="no"
+                            frameborder="no"
+                            allow="autoplay"
+                            src=https://player.vimeo.com/video/289829379>
+                          </iframe>
+                        </div>
+                      </div>
+                    <div class="col-lg-4">
+                      <h4 class="showreelTitle"> MERAQI<BR>  <small class="subtitle"> Original music. Production, lead vocals &amp; keys </h4>
+                        <div class="mediaBox">
+                          <iframe
+                            scrolling="no"
+                            frameborder="no"
+                            allow="autoplay"
+                            src=https://www.youtube.com/embed/96_bP3EOae0>
+                          </iframe>
+                        </div>
+                      </div>
+                    <div class="col-lg-4">
+                      <h4 class="showreelTitle"> ALL ABOUT THE MONEY<BR>  <small class="subtitle"> Theme tune for podcast by BBC Asian Network </h4>
+                        <div class="mediaBox">
+                          <iframe
+                            scrolling="no"
+                            frameborder="no"
+                            allow="autoplay"
+                            src=https://w.soundcloud.com/player/?url&#x3D;https%3A//api.soundcloud.com/tracks/793103251&amp;color&#x3D;%23ff5500&amp;auto_play&#x3D;false&amp;hide_related&#x3D;false&amp;show_comments&#x3D;true&amp;show_user&#x3D;true&amp;show_reposts&#x3D;false&amp;show_teaser&#x3D;true&amp;visual&#x3D;true>
+                          </iframe>
+                        </div>
+                      </div>
+                    <div class="col-lg-4">
+                      <h4 class="showreelTitle"> VOGUE Sync<BR>  <small class="subtitle"> Feat Victoria Beckham </h4>
+                        <div class="mediaBox">
+                          <iframe
+                            scrolling="no"
+                            frameborder="no"
+                            allow="autoplay"
+                            src=https://www.youtube.com/embed/ymOsfYK-wZk>
+                          </iframe>
+                        </div>
+                      </div>
+                    <div class="col-lg-4">
+                      <h4 class="showreelTitle"> JUKEDECK<BR>  <small class="subtitle"> Contemporary Minimalist piece for the AI Music company </h4>
+                        <div class="mediaBox">
+                          <iframe
+                            scrolling="no"
+                            frameborder="no"
+                            allow="autoplay"
+                            src=https://w.soundcloud.com/player/?url&#x3D;https%3A//api.soundcloud.com/tracks/318327848&amp;color&#x3D;%23ff5500&amp;auto_play&#x3D;false&amp;hide_related&#x3D;false&amp;show_comments&#x3D;true&amp;show_user&#x3D;true&amp;show_reposts&#x3D;false&amp;show_teaser&#x3D;true&amp;visual&#x3D;true>
+                          </iframe>
+                        </div>
+                      </div>
+                    <div class="col-lg-4">
+                      <h4 class="showreelTitle"> BOE HUNTRESS - SEAQUEEN<BR>  <small class="subtitle"> Mix/Master &amp; additional production </h4>
+                        <div class="mediaBox">
+                          <iframe
+                            scrolling="no"
+                            frameborder="no"
+                            allow="autoplay"
+                            src=https://www.youtube.com/embed/PeeNh12PU-w>
+                          </iframe>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+      </div>
+       <div class="container" id="originals">        <div class="column">
+  <div class="title"> <h2 class="maintitle"> ORIGINALS <BR> </h2>
+    </div>
+</div>
+<div class="column">
+    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 contentBlock contentInsta">
+      <blockquote class="instagram-media insta" data-instgrm-permalink="https://www.instagram.com/p/CBlFYXLHIps/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="12" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/CBlFYXLHIps/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;"> View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/CBlFYXLHIps/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Neeta (@neetamusic)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2020-06-18T14:16:25+00:00">Jun 18, 2020 at 7:16am PDT</time></p>
+      </div>
+    </blockquote>
+  </div>
+  <div class="col-lg-4 col-md-4 col-sm-12  col-xs-12 contentBlock contentInsta">
+    <blockquote class="instagram-media insta" data-instgrm-permalink="https://www.instagram.com/p/CFuc0-aHAN8/?utm_source=ig_web_button_share_sheet" data-instgrm-version="12" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+      <div style="padding:16px;"> <a href="https://www.instagram.com/p/CBlFYXLHIps/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;">
+        <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g>
+          <path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;"> View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/CBlFYXLHIps/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Neeta (@neetamusic)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2020-06-18T14:16:25+00:00">Jun 18, 2020 at 7:16am PDT</time></p>
+        </div>
+    </blockquote>
+  </div>
+  <div class="col-lg-4 col-md-4 col-sm-12  col-xs-12 contentBlock contentInsta">
+    <blockquote class="instagram-media insta" data-instgrm-permalink="https://www.instagram.com/p/CEmIdnPnAGa/?utm_source=ig_web_button_share_sheet" data-instgrm-version="12" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/CBlFYXLHIps/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;"> View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/CBlFYXLHIps/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Neeta (@neetamusic)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2020-06-18T14:16:25+00:00">Jun 18, 2020 at 7:16am PDT</time></p></div>
+    </blockquote>
+  </div>
+</div>
+<BR>
+<div class="column">
+</div>
+<div class="column">
+  <div class="col-lg-4 col-md-4 col-sm-12  contentBlock">
+    <div class="originals">
+        <a href="https://www.youtube.com/watch?v=GWcbzHd-65Y&list=PL6kNz8DmxGprJsSHz8AycuqwJTG1FatkM" target="_blank">
+          <img class="imgOriginal" src="Assets/meraqi.jpg">
+          <img class="imgMeraqiLogo hvr-grow-shadow" src="Assets/logoMeraqi.png">
+        </a>
+    </div>
+  </div>
+  <div class="col-lg-4 col-md-4 col-sm-12   contentBlock">
+    <div class="originals">
+        <a href="https://open.spotify.com/album/739tb7FEg52UkHFX7Deghc?si=E9smLuHZRNW8QqcBtmSLmw" target="_blank">
+          <img class="imgOriginal" src="Assets/polaroid85artwork.jpg">
+          <img class="imgP85Logo hvr-grow-shadow" src="Assets/polaroid85.png">
+        </a>
+    </div>
+  </div>
+</div>
+ </div>
+      <!-- <div class="container" id="sounddesign">        <div class="column">
+  <div class="title"> <h2 class="maintitle" id="#originals"> SOUND DESIGN <small> (Coming soon) </small> </h2>
+  </div>
+  <div class="col-lg-12 col-md-6  contentBlock">
+    <p class="sounddesignblurb">  <p><BR>
+    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CBlFYXLHIps/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="12" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/CBlFYXLHIps/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;"> View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/CBlFYXLHIps/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Neeta (@neetamusic)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2020-06-18T14:16:25+00:00">Jun 18, 2020 at 7:16am PDT</time></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+</div>
+  </div>
+</div>
+ </div> -->
+    </div>
+<div class="contentBlock">
+  <div class="container">
+    <div class="backToTop">
+      <a href="#pageTop">    <span> &#9198;</span> Back To Top </a>
+    </div>
+  </div>
+</div>
+<div class="space">
+</div>
   </body>
+  <footer>
+    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 end">
+      <p class="summary">Neeta Sarl: Composition | Production | Mixing | Live Performer </p>
+      <p>Website  by Neeta Sarl</p>
+    </div>
+    <div class="col-lg-3 ampify">
+    </div>
+        <a href="mailto:neetamusic@gmail.com">
+    <div class="col-lg-1 email">
+   Contact
+    </div>
+    </a>
+  </footer>
 </html>

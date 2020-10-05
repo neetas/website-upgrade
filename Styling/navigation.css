@@ -4,28 +4,57 @@
   max-height: 70px;
 }
 
-.navbar-default{
-  background-color: rgba(13, 17, 33, 0.99);
-  padding-top: 10px;
-  width: 100%
+.myLogo{
+  display:inline-block;
 }
 
 .logo{
-  width:90%;
-  height:90%;
-  max-width:250px;
+ top: 0;
+ left: 10%;
+ margin-left: 20px;
+ width: 20vw;
+ min-width:250px;
 }
 
-.sm-xs-nav{
-  padding-bottom:2%;
+.logoBlack{
+ top: 0;
+ left: 10%;
+ width: 80%;
 }
 
-.sm-xs-li{
-  padding-right:2%;
+.equals{
+  height: 100px;
+  position:relative ;
+  left: 12%;
+  opacity: 0.2;
 }
 
-.sm-xs-link{
-    color: rgb(44, 111, 174);
+.navbar-default{
+  color: rgba(228, 236, 233, 0.76);
+  border-style: none;
+}
+.navbar-default:before{
+  content: "";
+  position: absolute;
+  display: block;
+  padding-top: 10px;
+  width: 100%;
+    background-size: cover;
+    border-style: none;
+    height:100%;
+ */
+}
+
+.navbar-fixed-top.scrolled {
+  background-color: #45443e;
+  background-image: url(../Assets/megreenbackgroundonly.jpg);
+  background-size:cover;
+  transition: background-color 2000ms linear;
+}
+
+#navbar-override{
+  ;
+  background-color: transparent
 }
 
 #logo{
@@ -83,8 +112,16 @@
 .socials{
   float:right;
   margin-right: 2%;
+  margin-top:20px;
 }
 
+
+.socialicon{
+  width:4vw;
+  min-width:30px;
+  max-width:40px;
+  margin: 5px;
+}
 .toggler{
   border: none;
   background-color: transparent;
